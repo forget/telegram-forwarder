@@ -21,4 +21,4 @@ Please keep in mind the following:
 
 In order to pass in valid channel IDs for Telegram's API, simply add `-100` in front of the channel IDs you pull from the application.
 
-# DO NOT USE YOUR MAIN ACCOUNT WITH THIS TOOL, OR IF YOU DO SO, DO IT AT YOUR OWN RISK.
+## DO NOT USE YOUR MAIN ACCOUNT WITH THIS TOOL, OR IF YOU DO SO, DO IT AT YOUR OWN RISK.
