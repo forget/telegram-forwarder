@@ -10,14 +10,16 @@ Open up `main.py` and put your account's credentials in. After that is done, hea
 ```
 {
     "channel_id": {
-        "message_id": ["channel_id_to_forward_to", "channel_id_to_forward_to2"]
+        "message_id": ["forward_channel", "forward_channel"]
     }
 }
 ```
 Please keep in mind the following:
 * channel_id: the channel of which you want to forward a message from.
 * message_id: the message you want to forward from that channel to another.
-* array: the elements are simply the channel ids where you want the message to be posted.
+* forward_channel: channel id of the channel/topic you want to forward your message to.
+
+For topics, use `<channel_id>/<topic_id>`.
 
 In order to pass in valid channel IDs for Telegram's API, simply add `-100` in front of the channel IDs you pull from the application.
 
