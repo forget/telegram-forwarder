@@ -19,5 +19,6 @@ Please keep in mind the following:
 * message_id: the message you want to forward from that channel to another.
 * array: the elements are simply the channel ids where you want the message to be posted.
 
-## NOTE: Telegram's API works like so:
-* channel_id's have -100 in front of them, so if you copy the channel ID from the application, do not forget to add it at the front.
+In order to pass in valid channel IDs for Telegram's API, simply add `-100` in front of the channel IDs you pull from the application.
+
+# DO NOT USE YOUR MAIN ACCOUNT WITH THIS TOOL, OR IF YOU DO SO, DO IT AT YOUR OWN RISK.
