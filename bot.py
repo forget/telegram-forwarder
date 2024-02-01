@@ -114,5 +114,5 @@ class Bot(TelegramClient):
         _exit(-3)
                 
 if __name__ == "__main__":
-    bot = Bot("+<phone_number>", 999999, "api_hash") # replace <999999> with your API ID
+    bot = Bot("+<phone_number>", 999999, "api_hash") # replace with your credentials
     run(bot.main())
