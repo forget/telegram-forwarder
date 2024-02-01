@@ -21,4 +21,5 @@ Please keep in mind the following:
 
 For topics, use `<channel_id>/<topic_id>`, an example is included inside `data.json`.
 
-### DO NOT USE YOUR MAIN ACCOUNT WITH THIS TOOL, OR IF YOU DO SO, DO IT AT YOUR OWN RISK.
+## USE THE TOOL AT YOUR OWN RISK, NEVER SHARE YOUR CREDENTIALS WITH ANYONE!
+### THERE'S A HIGH CHANCE THIS CAN BAN YOUR ACCOUNT (/SUSPEND FROM SENDING MESSAGES TO GROUPS).
