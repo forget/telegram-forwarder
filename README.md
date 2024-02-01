@@ -18,4 +18,4 @@ If you do not understand it, here is a little more detail:
 
 For topics, use `<channel_id>/<topic_id>`, an example is included inside `data.json`.
 
-## It's very likely that you'll get suspended, so use at your own risk.
+## It's very likely that you'll get suspended, so use it at your own risk.
