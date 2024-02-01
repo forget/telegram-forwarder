@@ -60,10 +60,9 @@ class Bot(TelegramClient):
             print(f"[-] Login failed due to {type(e).__name__}: {str(e)}")
             return False
     
-    async def forward(self, local_chat_id):
+    async def send_message(self, local_chat_id):
         local_chat_entity = await self.client.get_entity(local_chat_id)
         
-        print(f"[?] Forwarding messages for {local_chat_id}...")
         for message_id, channel_ids in self.data[local_chat_id].items():
             try:
                 text = await self.client.get_messages(
@@ -115,5 +114,5 @@ class Bot(TelegramClient):
         _exit(-3)
                 
 if __name__ == "__main__":
-    bot = Bot("+37257033479", 28312364, "f2bbfd4f81fddc83bf124e8d348c943d")
+    bot = Bot("+<phone_number>", 999999, "api_hash") # replace <999999> with your API ID
     run(bot.main())
