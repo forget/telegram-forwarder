@@ -1,4 +1,6 @@
-A simple tool to forward a message (or multiple) from one channel to another. To install, simply download python and the telethon module:
+A simple tool to forward a message (or multiple) from one channel to another. 
+
+First install python with pip, then install the needed dependencies:
 ```
 pip install telethon
 ```
