@@ -3,7 +3,7 @@ A simple tool to forward a message (or multiple) from one channel to another. To
 pip install telethon
 ```
 
-Open `main.py` and put your account's credentials in. After that is done, head to `assets/data.json` (this is where the data for your channels is stored). The format is the following:
+Open `bot.py` and put your account's credentials in. After that is done, head to `assets/data.json` (this is where the data for your channels is stored). The format is the following:
 ```
 {
     "channel_link": {
