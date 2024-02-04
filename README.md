@@ -18,6 +18,6 @@ If you do not understand it, here is a little more detail:
 * message_id: the message you want to forward from that channel to another.
 * forward_channel: channel id (supports topics too) you want to forward your message to.
 
-For topics, use `<channel_id>/<topic_id>`, an example is included inside `data.json`.
+For topics, use `<channel_id>/<topic_id>`, an example is included inside `data.json`. Feel free to play with the delays, currently it forwards all messages with a `300 seconds` (5 minutes) interval and it restarts the process every `12 000 seconds` (3.33 hours). Some channels have slow-mode enabled at 5 minutes, others at 1 hour so make sure you check before you run the script so it does not break.
 
 ## It's very likely that you'll get suspended, so use it at your own risk.
