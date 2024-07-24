@@ -54,7 +54,7 @@ class Bot(TelegramClient):
                         input("[?] Access code: ")
                     )
                 except SessionPasswordNeededError:
-                    await self.client.sign_in(password=getpass.getpass())
+                    await self.client.sign_in(password=getpass())
             return True
         except Exception as e:
             print(f"[-] Login failed due to {type(e).__name__}: {str(e)}")
