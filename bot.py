@@ -101,7 +101,7 @@ class Bot(TelegramClient):
                 self.data: object = self.load_json_file("data.json")
                 
                 for chat_id in self.data:
-                    await self.forward(chat_id)
+                    await self.send_message(chat_id)
                 print(f"[+] Successfully forwarded all messages!\n\n")
                 
                 await sleep(self.groups_delay)
